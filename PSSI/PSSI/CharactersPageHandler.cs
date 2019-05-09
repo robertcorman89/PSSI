@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -46,6 +47,20 @@ namespace PSSI
             {
                 Characters.Add(new Character());
             }
+        }
+
+        public void PlayCorrectSound()
+        {
+            SoundPlayer player = new SoundPlayer();
+            player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\sounds\\correct.wav";
+            player.Play();
+        }
+
+        public void PlayWrongSound()
+        {
+            SoundPlayer player = new SoundPlayer();
+            player.SoundLocation = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\sounds\\wrong.wav";
+            player.Play();
         }
     }
     

@@ -19,6 +19,7 @@ namespace PSSI
 
         private void Tiger_Click(object sender, EventArgs e)
         {
+            CharactersPageHandler.Instance.PlayCorrectSound();
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score +=
                 1;
             this.Tiger.Enabled = false;
@@ -26,6 +27,7 @@ namespace PSSI
 
         private void Lion_Click(object sender, EventArgs e)
         {
+            CharactersPageHandler.Instance.PlayCorrectSound();
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score +=
                 1;
             this.Lion.Enabled = false;
@@ -33,6 +35,7 @@ namespace PSSI
 
         private void Snake_Click(object sender, EventArgs e)
         {
+            CharactersPageHandler.Instance.PlayCorrectSound();
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score +=
                 1;
             this.Snake.Enabled = false;
@@ -40,13 +43,14 @@ namespace PSSI
 
         private void Next_Click(object sender, EventArgs e)
         {
-            CharactersPage charactersPage = new CharactersPage();
-            charactersPage.Show();
+            Anotimpuri_Iarna iarna = new Anotimpuri_Iarna();
+            iarna.Show();
             this.Hide();
         }
 
         private void Pig_Click(object sender, EventArgs e)
         {
+            CharactersPageHandler.Instance.PlayWrongSound();
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score -=
                 1;
             this.Pig.Enabled = false;
@@ -54,6 +58,7 @@ namespace PSSI
 
         private void Cow_Click(object sender, EventArgs e)
         {
+            CharactersPageHandler.Instance.PlayWrongSound();
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score -=
                 1;
             this.Cow.Enabled = false;
@@ -61,6 +66,7 @@ namespace PSSI
 
         private void Bunny_Click(object sender, EventArgs e)
         {
+            CharactersPageHandler.Instance.PlayCorrectSound();
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score +=
                 1;
             this.Bunny.Enabled = false;

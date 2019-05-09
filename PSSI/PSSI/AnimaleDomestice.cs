@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,8 +18,10 @@ namespace PSSI
             InitializeComponent();
         }
 
+ 
         private void Chicken_Click(object sender, EventArgs e)
         {
+            CharactersPageHandler.Instance.PlayCorrectSound();
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score +=
                 1;
             this.Chicken.Enabled = false;
@@ -26,6 +29,7 @@ namespace PSSI
 
         private void Fox_Click(object sender, EventArgs e)
         {
+            CharactersPageHandler.Instance.PlayWrongSound();
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score -=
                 1;
             this.Fox.Enabled = false;
@@ -33,6 +37,7 @@ namespace PSSI
 
         private void Dog_Click(object sender, EventArgs e)
         {
+            CharactersPageHandler.Instance.PlayCorrectSound();
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score +=
                 1;
             this.Dog.Enabled = false;
@@ -40,6 +45,7 @@ namespace PSSI
 
         private void Bear_Click(object sender, EventArgs e)
         {
+            CharactersPageHandler.Instance.PlayWrongSound();
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score -=
                 1;
             this.Bear.Enabled = false;
@@ -47,6 +53,7 @@ namespace PSSI
 
         private void Goose_Click(object sender, EventArgs e)
         {
+            CharactersPageHandler.Instance.PlayCorrectSound();
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score +=
                 1;
             this.Goose.Enabled = false;
@@ -54,6 +61,7 @@ namespace PSSI
 
         private void Cow_Click(object sender, EventArgs e)
         {
+            CharactersPageHandler.Instance.PlayCorrectSound();
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score +=
                 1;
             this.Cow.Enabled = false;
@@ -61,6 +69,7 @@ namespace PSSI
 
         private void Deer_Click(object sender, EventArgs e)
         {
+            CharactersPageHandler.Instance.PlayWrongSound();
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score -=
                 1;
             this.Deer.Enabled = false;

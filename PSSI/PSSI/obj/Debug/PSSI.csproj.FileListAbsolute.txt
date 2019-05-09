@@ -10,3 +10,18 @@ C:\Users\Robert Corman\source\repos\PSSI\PSSI\obj\Debug\PSSI.pdb
 C:\Users\Robert Corman\source\repos\PSSI\PSSI\obj\Debug\PSSI.CharactersPage.resources
 C:\Users\Robert Corman\source\repos\PSSI\PSSI\obj\Debug\PSSI.AnimaleSalbatice.resources
 C:\Users\Robert Corman\source\repos\PSSI\PSSI\obj\Debug\PSSI.AnimaleDomestice.resources
+C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\bin\Debug\PSSI.exe.config
+C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\bin\Debug\PSSI.exe
+C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\bin\Debug\PSSI.pdb
+C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.csprojAssemblyReference.cache
+C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.AnimaleSalbatice.resources
+C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.CharactersPage.resources
+C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.AnimaleDomestice.resources
+C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.Properties.Resources.resources
+C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.csproj.GenerateResource.cache
+C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.csproj.CoreCompileInputs.cache
+C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.exe
+C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.pdb
+C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.Anotimpuri_Iarna.resources
+C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.Anotimpuri_Vara.resources
+C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.Anotimpuri_Toamna.resources

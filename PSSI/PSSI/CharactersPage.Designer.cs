@@ -95,6 +95,7 @@ namespace PSSI
             this.BeanPicture = new System.Windows.Forms.PictureBox();
             this.BlossomLabel = new System.Windows.Forms.Label();
             this.FlashLabel = new System.Windows.Forms.Label();
+            this.albaCaZapadaAlbNegru = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.mcqueenPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.annaPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.spiderPicture)).BeginInit();
@@ -127,6 +128,7 @@ namespace PSSI
             ((System.ComponentModel.ISupportInitialize)(this.AlbaCaZapadaPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ArielPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BeanPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.albaCaZapadaAlbNegru)).BeginInit();
             this.SuspendLayout();
             // 
             // mcqueenLabel
@@ -134,10 +136,11 @@ namespace PSSI
             this.mcqueenLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mcqueenLabel.AutoSize = true;
             this.mcqueenLabel.BackColor = System.Drawing.Color.Transparent;
+            this.mcqueenLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.mcqueenLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mcqueenLabel.Location = new System.Drawing.Point(268, 197);
             this.mcqueenLabel.Name = "mcqueenLabel";
-            this.mcqueenLabel.Size = new System.Drawing.Size(54, 13);
+            this.mcqueenLabel.Size = new System.Drawing.Size(56, 15);
             this.mcqueenLabel.TabIndex = 0;
             this.mcqueenLabel.Text = "McQueen";
             // 
@@ -146,10 +149,11 @@ namespace PSSI
             this.annaLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.annaLabel.AutoSize = true;
             this.annaLabel.BackColor = System.Drawing.Color.Transparent;
+            this.annaLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.annaLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.annaLabel.Location = new System.Drawing.Point(386, 197);
             this.annaLabel.Name = "annaLabel";
-            this.annaLabel.Size = new System.Drawing.Size(32, 13);
+            this.annaLabel.Size = new System.Drawing.Size(34, 15);
             this.annaLabel.TabIndex = 1;
             this.annaLabel.Text = "Anna";
             // 
@@ -158,10 +162,11 @@ namespace PSSI
             this.spiderLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.spiderLabel.AutoSize = true;
             this.spiderLabel.BackColor = System.Drawing.Color.Transparent;
+            this.spiderLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.spiderLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.spiderLabel.Location = new System.Drawing.Point(473, 197);
             this.spiderLabel.Name = "spiderLabel";
-            this.spiderLabel.Size = new System.Drawing.Size(61, 13);
+            this.spiderLabel.Size = new System.Drawing.Size(63, 15);
             this.spiderLabel.TabIndex = 1;
             this.spiderLabel.Text = "Spider Man";
             // 
@@ -170,10 +175,11 @@ namespace PSSI
             this.TweetyLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TweetyLabel.AutoSize = true;
             this.TweetyLabel.BackColor = System.Drawing.Color.Transparent;
+            this.TweetyLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.TweetyLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.TweetyLabel.Location = new System.Drawing.Point(592, 197);
             this.TweetyLabel.Name = "TweetyLabel";
-            this.TweetyLabel.Size = new System.Drawing.Size(42, 13);
+            this.TweetyLabel.Size = new System.Drawing.Size(44, 15);
             this.TweetyLabel.TabIndex = 1;
             this.TweetyLabel.Text = "Tweety";
             // 
@@ -182,10 +188,11 @@ namespace PSSI
             this.GoofyLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.GoofyLabel.AutoSize = true;
             this.GoofyLabel.BackColor = System.Drawing.Color.Transparent;
+            this.GoofyLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.GoofyLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.GoofyLabel.Location = new System.Drawing.Point(696, 197);
             this.GoofyLabel.Name = "GoofyLabel";
-            this.GoofyLabel.Size = new System.Drawing.Size(35, 13);
+            this.GoofyLabel.Size = new System.Drawing.Size(37, 15);
             this.GoofyLabel.TabIndex = 1;
             this.GoofyLabel.Text = "Goofy";
             // 
@@ -194,10 +201,11 @@ namespace PSSI
             this.SuperManLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.SuperManLabel.AutoSize = true;
             this.SuperManLabel.BackColor = System.Drawing.Color.Transparent;
+            this.SuperManLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.SuperManLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SuperManLabel.Location = new System.Drawing.Point(795, 197);
             this.SuperManLabel.Name = "SuperManLabel";
-            this.SuperManLabel.Size = new System.Drawing.Size(59, 13);
+            this.SuperManLabel.Size = new System.Drawing.Size(61, 15);
             this.SuperManLabel.TabIndex = 1;
             this.SuperManLabel.Text = "Super Man";
             // 
@@ -206,10 +214,11 @@ namespace PSSI
             this.MickeyLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.MickeyLabel.AutoSize = true;
             this.MickeyLabel.BackColor = System.Drawing.Color.Transparent;
+            this.MickeyLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.MickeyLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MickeyLabel.Location = new System.Drawing.Point(901, 197);
             this.MickeyLabel.Name = "MickeyLabel";
-            this.MickeyLabel.Size = new System.Drawing.Size(76, 13);
+            this.MickeyLabel.Size = new System.Drawing.Size(78, 15);
             this.MickeyLabel.TabIndex = 1;
             this.MickeyLabel.Text = "Mickey Mouse";
             // 
@@ -218,10 +227,11 @@ namespace PSSI
             this.roadRunnerLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.roadRunnerLabel.AutoSize = true;
             this.roadRunnerLabel.BackColor = System.Drawing.Color.Transparent;
+            this.roadRunnerLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.roadRunnerLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.roadRunnerLabel.Location = new System.Drawing.Point(1004, 197);
             this.roadRunnerLabel.Name = "roadRunnerLabel";
-            this.roadRunnerLabel.Size = new System.Drawing.Size(71, 13);
+            this.roadRunnerLabel.Size = new System.Drawing.Size(73, 15);
             this.roadRunnerLabel.TabIndex = 1;
             this.roadRunnerLabel.Text = "Road Runner";
             this.roadRunnerLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -230,6 +240,7 @@ namespace PSSI
             // 
             this.mcqueenPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mcqueenPicture.BackColor = System.Drawing.Color.Transparent;
+            this.mcqueenPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.mcqueenPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mcqueenPicture.Image = ((System.Drawing.Image)(resources.GetObject("mcqueenPicture.Image")));
             this.mcqueenPicture.Location = new System.Drawing.Point(262, 104);
@@ -244,6 +255,7 @@ namespace PSSI
             // 
             this.annaPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.annaPicture.BackColor = System.Drawing.Color.Transparent;
+            this.annaPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.annaPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.annaPicture.Image = ((System.Drawing.Image)(resources.GetObject("annaPicture.Image")));
             this.annaPicture.Location = new System.Drawing.Point(364, 104);
@@ -258,6 +270,7 @@ namespace PSSI
             // 
             this.spiderPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.spiderPicture.BackColor = System.Drawing.Color.Transparent;
+            this.spiderPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.spiderPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.spiderPicture.Image = ((System.Drawing.Image)(resources.GetObject("spiderPicture.Image")));
             this.spiderPicture.Location = new System.Drawing.Point(468, 104);
@@ -272,6 +285,7 @@ namespace PSSI
             // 
             this.tweetyPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tweetyPicture.BackColor = System.Drawing.Color.Transparent;
+            this.tweetyPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tweetyPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.tweetyPicture.Image = ((System.Drawing.Image)(resources.GetObject("tweetyPicture.Image")));
             this.tweetyPicture.Location = new System.Drawing.Point(577, 104);
@@ -286,6 +300,7 @@ namespace PSSI
             // 
             this.GoofyPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.GoofyPicture.BackColor = System.Drawing.Color.Transparent;
+            this.GoofyPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.GoofyPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.GoofyPicture.Image = ((System.Drawing.Image)(resources.GetObject("GoofyPicture.Image")));
             this.GoofyPicture.Location = new System.Drawing.Point(679, 104);
@@ -300,6 +315,7 @@ namespace PSSI
             // 
             this.supermanPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.supermanPicture.BackColor = System.Drawing.Color.Transparent;
+            this.supermanPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.supermanPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.supermanPicture.Image = ((System.Drawing.Image)(resources.GetObject("supermanPicture.Image")));
             this.supermanPicture.Location = new System.Drawing.Point(790, 104);
@@ -314,6 +330,7 @@ namespace PSSI
             // 
             this.MickeyPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.MickeyPicture.BackColor = System.Drawing.Color.Transparent;
+            this.MickeyPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.MickeyPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MickeyPicture.Image = ((System.Drawing.Image)(resources.GetObject("MickeyPicture.Image")));
             this.MickeyPicture.Location = new System.Drawing.Point(896, 104);
@@ -328,6 +345,7 @@ namespace PSSI
             // 
             this.RoadrunnerPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.RoadrunnerPicture.BackColor = System.Drawing.Color.Transparent;
+            this.RoadrunnerPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.RoadrunnerPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.RoadrunnerPicture.Image = ((System.Drawing.Image)(resources.GetObject("RoadrunnerPicture.Image")));
             this.RoadrunnerPicture.Location = new System.Drawing.Point(998, 104);
@@ -343,10 +361,11 @@ namespace PSSI
             this.IronManLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.IronManLabel.AutoSize = true;
             this.IronManLabel.BackColor = System.Drawing.Color.Transparent;
+            this.IronManLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.IronManLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IronManLabel.Location = new System.Drawing.Point(268, 324);
             this.IronManLabel.Name = "IronManLabel";
-            this.IronManLabel.Size = new System.Drawing.Size(49, 13);
+            this.IronManLabel.Size = new System.Drawing.Size(51, 15);
             this.IronManLabel.TabIndex = 0;
             this.IronManLabel.Text = "Iron Man";
             // 
@@ -355,10 +374,11 @@ namespace PSSI
             this.MinnieLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.MinnieLabel.AutoSize = true;
             this.MinnieLabel.BackColor = System.Drawing.Color.Transparent;
+            this.MinnieLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.MinnieLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MinnieLabel.Location = new System.Drawing.Point(380, 324);
             this.MinnieLabel.Name = "MinnieLabel";
-            this.MinnieLabel.Size = new System.Drawing.Size(38, 13);
+            this.MinnieLabel.Size = new System.Drawing.Size(40, 15);
             this.MinnieLabel.TabIndex = 1;
             this.MinnieLabel.Text = "Minnie";
             // 
@@ -367,10 +387,11 @@ namespace PSSI
             this.jerryLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.jerryLabel.AutoSize = true;
             this.jerryLabel.BackColor = System.Drawing.Color.Transparent;
+            this.jerryLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.jerryLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.jerryLabel.Location = new System.Drawing.Point(491, 324);
             this.jerryLabel.Name = "jerryLabel";
-            this.jerryLabel.Size = new System.Drawing.Size(29, 13);
+            this.jerryLabel.Size = new System.Drawing.Size(31, 15);
             this.jerryLabel.TabIndex = 1;
             this.jerryLabel.Text = "Jerry";
             // 
@@ -379,10 +400,11 @@ namespace PSSI
             this.donaldLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.donaldLabel.AutoSize = true;
             this.donaldLabel.BackColor = System.Drawing.Color.Transparent;
+            this.donaldLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.donaldLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.donaldLabel.Location = new System.Drawing.Point(583, 324);
             this.donaldLabel.Name = "donaldLabel";
-            this.donaldLabel.Size = new System.Drawing.Size(70, 13);
+            this.donaldLabel.Size = new System.Drawing.Size(72, 15);
             this.donaldLabel.TabIndex = 1;
             this.donaldLabel.Text = "Donald Duck";
             // 
@@ -391,10 +413,11 @@ namespace PSSI
             this.bambiLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.bambiLabel.AutoSize = true;
             this.bambiLabel.BackColor = System.Drawing.Color.Transparent;
+            this.bambiLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.bambiLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bambiLabel.Location = new System.Drawing.Point(705, 324);
             this.bambiLabel.Name = "bambiLabel";
-            this.bambiLabel.Size = new System.Drawing.Size(36, 13);
+            this.bambiLabel.Size = new System.Drawing.Size(38, 15);
             this.bambiLabel.TabIndex = 1;
             this.bambiLabel.Text = "Bambi";
             // 
@@ -403,10 +426,11 @@ namespace PSSI
             this.HulkLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.HulkLabel.AutoSize = true;
             this.HulkLabel.BackColor = System.Drawing.Color.Transparent;
+            this.HulkLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.HulkLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.HulkLabel.Location = new System.Drawing.Point(814, 324);
             this.HulkLabel.Name = "HulkLabel";
-            this.HulkLabel.Size = new System.Drawing.Size(29, 13);
+            this.HulkLabel.Size = new System.Drawing.Size(31, 15);
             this.HulkLabel.TabIndex = 1;
             this.HulkLabel.Text = "Hulk";
             // 
@@ -415,10 +439,11 @@ namespace PSSI
             this.TomLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TomLabel.AutoSize = true;
             this.TomLabel.BackColor = System.Drawing.Color.Transparent;
+            this.TomLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.TomLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.TomLabel.Location = new System.Drawing.Point(917, 324);
             this.TomLabel.Name = "TomLabel";
-            this.TomLabel.Size = new System.Drawing.Size(28, 13);
+            this.TomLabel.Size = new System.Drawing.Size(30, 15);
             this.TomLabel.TabIndex = 1;
             this.TomLabel.Text = "Tom";
             // 
@@ -427,10 +452,11 @@ namespace PSSI
             this.batmanLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.batmanLabel.AutoSize = true;
             this.batmanLabel.BackColor = System.Drawing.Color.Transparent;
+            this.batmanLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.batmanLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.batmanLabel.Location = new System.Drawing.Point(1023, 324);
             this.batmanLabel.Name = "batmanLabel";
-            this.batmanLabel.Size = new System.Drawing.Size(43, 13);
+            this.batmanLabel.Size = new System.Drawing.Size(45, 15);
             this.batmanLabel.TabIndex = 1;
             this.batmanLabel.Text = "Batman";
             // 
@@ -438,6 +464,7 @@ namespace PSSI
             // 
             this.IronManPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.IronManPicture.BackColor = System.Drawing.Color.Transparent;
+            this.IronManPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.IronManPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IronManPicture.Image = ((System.Drawing.Image)(resources.GetObject("IronManPicture.Image")));
             this.IronManPicture.Location = new System.Drawing.Point(262, 231);
@@ -452,6 +479,7 @@ namespace PSSI
             // 
             this.MinniePicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.MinniePicture.BackColor = System.Drawing.Color.Transparent;
+            this.MinniePicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.MinniePicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MinniePicture.Image = ((System.Drawing.Image)(resources.GetObject("MinniePicture.Image")));
             this.MinniePicture.Location = new System.Drawing.Point(364, 231);
@@ -466,6 +494,7 @@ namespace PSSI
             // 
             this.jerryPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.jerryPicture.BackColor = System.Drawing.Color.Transparent;
+            this.jerryPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.jerryPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.jerryPicture.Image = ((System.Drawing.Image)(resources.GetObject("jerryPicture.Image")));
             this.jerryPicture.Location = new System.Drawing.Point(468, 231);
@@ -480,6 +509,7 @@ namespace PSSI
             // 
             this.donaldPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.donaldPicture.BackColor = System.Drawing.Color.Transparent;
+            this.donaldPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.donaldPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.donaldPicture.Image = ((System.Drawing.Image)(resources.GetObject("donaldPicture.Image")));
             this.donaldPicture.Location = new System.Drawing.Point(577, 231);
@@ -494,6 +524,7 @@ namespace PSSI
             // 
             this.bambiPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.bambiPicture.BackColor = System.Drawing.Color.Transparent;
+            this.bambiPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.bambiPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bambiPicture.Image = ((System.Drawing.Image)(resources.GetObject("bambiPicture.Image")));
             this.bambiPicture.Location = new System.Drawing.Point(679, 231);
@@ -508,6 +539,7 @@ namespace PSSI
             // 
             this.HulkPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.HulkPicture.BackColor = System.Drawing.Color.Transparent;
+            this.HulkPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.HulkPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.HulkPicture.Image = ((System.Drawing.Image)(resources.GetObject("HulkPicture.Image")));
             this.HulkPicture.Location = new System.Drawing.Point(790, 231);
@@ -522,6 +554,7 @@ namespace PSSI
             // 
             this.TomPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.TomPicture.BackColor = System.Drawing.Color.Transparent;
+            this.TomPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TomPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.TomPicture.Image = ((System.Drawing.Image)(resources.GetObject("TomPicture.Image")));
             this.TomPicture.Location = new System.Drawing.Point(896, 231);
@@ -536,6 +569,7 @@ namespace PSSI
             // 
             this.BatmanPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.BatmanPicture.BackColor = System.Drawing.Color.Transparent;
+            this.BatmanPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.BatmanPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BatmanPicture.Image = ((System.Drawing.Image)(resources.GetObject("BatmanPicture.Image")));
             this.BatmanPicture.Location = new System.Drawing.Point(998, 231);
@@ -551,10 +585,11 @@ namespace PSSI
             this.ElsaLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ElsaLabel.AutoSize = true;
             this.ElsaLabel.BackColor = System.Drawing.Color.Transparent;
+            this.ElsaLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ElsaLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ElsaLabel.Location = new System.Drawing.Point(290, 452);
             this.ElsaLabel.Name = "ElsaLabel";
-            this.ElsaLabel.Size = new System.Drawing.Size(27, 13);
+            this.ElsaLabel.Size = new System.Drawing.Size(29, 15);
             this.ElsaLabel.TabIndex = 0;
             this.ElsaLabel.Text = "Elsa";
             // 
@@ -563,10 +598,11 @@ namespace PSSI
             this.OlafLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.OlafLabel.AutoSize = true;
             this.OlafLabel.BackColor = System.Drawing.Color.Transparent;
+            this.OlafLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.OlafLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.OlafLabel.Location = new System.Drawing.Point(917, 452);
             this.OlafLabel.Name = "OlafLabel";
-            this.OlafLabel.Size = new System.Drawing.Size(26, 13);
+            this.OlafLabel.Size = new System.Drawing.Size(28, 15);
             this.OlafLabel.TabIndex = 1;
             this.OlafLabel.Text = "Olaf";
             // 
@@ -575,10 +611,11 @@ namespace PSSI
             this.PapaSmurfLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PapaSmurfLabel.AutoSize = true;
             this.PapaSmurfLabel.BackColor = System.Drawing.Color.Transparent;
+            this.PapaSmurfLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PapaSmurfLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PapaSmurfLabel.Location = new System.Drawing.Point(1004, 452);
             this.PapaSmurfLabel.Name = "PapaSmurfLabel";
-            this.PapaSmurfLabel.Size = new System.Drawing.Size(62, 13);
+            this.PapaSmurfLabel.Size = new System.Drawing.Size(64, 15);
             this.PapaSmurfLabel.TabIndex = 1;
             this.PapaSmurfLabel.Text = "Papa Smurf";
             // 
@@ -586,6 +623,7 @@ namespace PSSI
             // 
             this.BlossomPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.BlossomPicture.BackColor = System.Drawing.Color.Transparent;
+            this.BlossomPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.BlossomPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BlossomPicture.Image = ((System.Drawing.Image)(resources.GetObject("BlossomPicture.Image")));
             this.BlossomPicture.Location = new System.Drawing.Point(679, 357);
@@ -600,6 +638,7 @@ namespace PSSI
             // 
             this.FlashPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.FlashPicture.BackColor = System.Drawing.Color.Transparent;
+            this.FlashPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.FlashPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FlashPicture.Image = ((System.Drawing.Image)(resources.GetObject("FlashPicture.Image")));
             this.FlashPicture.Location = new System.Drawing.Point(790, 357);
@@ -614,6 +653,7 @@ namespace PSSI
             // 
             this.OlafPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.OlafPicture.BackColor = System.Drawing.Color.Transparent;
+            this.OlafPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.OlafPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.OlafPicture.Image = ((System.Drawing.Image)(resources.GetObject("OlafPicture.Image")));
             this.OlafPicture.Location = new System.Drawing.Point(896, 357);
@@ -628,6 +668,7 @@ namespace PSSI
             // 
             this.PapaSmurfPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PapaSmurfPicture.BackColor = System.Drawing.Color.Transparent;
+            this.PapaSmurfPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PapaSmurfPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PapaSmurfPicture.Image = ((System.Drawing.Image)(resources.GetObject("PapaSmurfPicture.Image")));
             this.PapaSmurfPicture.Location = new System.Drawing.Point(998, 357);
@@ -643,10 +684,11 @@ namespace PSSI
             this.ButtercupLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ButtercupLabel.AutoSize = true;
             this.ButtercupLabel.BackColor = System.Drawing.Color.Transparent;
+            this.ButtercupLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.ButtercupLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtercupLabel.Location = new System.Drawing.Point(281, 580);
             this.ButtercupLabel.Name = "ButtercupLabel";
-            this.ButtercupLabel.Size = new System.Drawing.Size(53, 13);
+            this.ButtercupLabel.Size = new System.Drawing.Size(55, 15);
             this.ButtercupLabel.TabIndex = 0;
             this.ButtercupLabel.Text = "Buttercup";
             // 
@@ -655,10 +697,11 @@ namespace PSSI
             this.CaptainAmericaLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CaptainAmericaLabel.AutoSize = true;
             this.CaptainAmericaLabel.BackColor = System.Drawing.Color.Transparent;
+            this.CaptainAmericaLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.CaptainAmericaLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CaptainAmericaLabel.Location = new System.Drawing.Point(370, 580);
             this.CaptainAmericaLabel.Name = "CaptainAmericaLabel";
-            this.CaptainAmericaLabel.Size = new System.Drawing.Size(84, 13);
+            this.CaptainAmericaLabel.Size = new System.Drawing.Size(86, 15);
             this.CaptainAmericaLabel.TabIndex = 1;
             this.CaptainAmericaLabel.Text = "Captain America";
             this.CaptainAmericaLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -668,10 +711,11 @@ namespace PSSI
             this.WinnieLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.WinnieLabel.AutoSize = true;
             this.WinnieLabel.BackColor = System.Drawing.Color.Transparent;
+            this.WinnieLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.WinnieLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.WinnieLabel.Location = new System.Drawing.Point(491, 580);
             this.WinnieLabel.Name = "WinnieLabel";
-            this.WinnieLabel.Size = new System.Drawing.Size(43, 13);
+            this.WinnieLabel.Size = new System.Drawing.Size(45, 15);
             this.WinnieLabel.TabIndex = 1;
             this.WinnieLabel.Text = "Winnie ";
             // 
@@ -680,10 +724,11 @@ namespace PSSI
             this.PatrickLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PatrickLabel.AutoSize = true;
             this.PatrickLabel.BackColor = System.Drawing.Color.Transparent;
+            this.PatrickLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.PatrickLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PatrickLabel.Location = new System.Drawing.Point(594, 580);
             this.PatrickLabel.Name = "PatrickLabel";
-            this.PatrickLabel.Size = new System.Drawing.Size(40, 13);
+            this.PatrickLabel.Size = new System.Drawing.Size(42, 15);
             this.PatrickLabel.TabIndex = 1;
             this.PatrickLabel.Text = "Patrick";
             // 
@@ -692,10 +737,11 @@ namespace PSSI
             this.SpongeBobLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.SpongeBobLabel.AutoSize = true;
             this.SpongeBobLabel.BackColor = System.Drawing.Color.Transparent;
+            this.SpongeBobLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.SpongeBobLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SpongeBobLabel.Location = new System.Drawing.Point(685, 580);
             this.SpongeBobLabel.Name = "SpongeBobLabel";
-            this.SpongeBobLabel.Size = new System.Drawing.Size(66, 13);
+            this.SpongeBobLabel.Size = new System.Drawing.Size(68, 15);
             this.SpongeBobLabel.TabIndex = 1;
             this.SpongeBobLabel.Text = "Sponge Bob";
             // 
@@ -704,10 +750,11 @@ namespace PSSI
             this.BubbleLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.BubbleLabel.AutoSize = true;
             this.BubbleLabel.BackColor = System.Drawing.Color.Transparent;
+            this.BubbleLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.BubbleLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BubbleLabel.Location = new System.Drawing.Point(814, 580);
             this.BubbleLabel.Name = "BubbleLabel";
-            this.BubbleLabel.Size = new System.Drawing.Size(40, 13);
+            this.BubbleLabel.Size = new System.Drawing.Size(42, 15);
             this.BubbleLabel.TabIndex = 1;
             this.BubbleLabel.Text = "Bubble";
             // 
@@ -716,10 +763,11 @@ namespace PSSI
             this.ShaggyLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ShaggyLabel.AutoSize = true;
             this.ShaggyLabel.BackColor = System.Drawing.Color.Transparent;
+            this.ShaggyLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.ShaggyLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ShaggyLabel.Location = new System.Drawing.Point(917, 580);
             this.ShaggyLabel.Name = "ShaggyLabel";
-            this.ShaggyLabel.Size = new System.Drawing.Size(43, 13);
+            this.ShaggyLabel.Size = new System.Drawing.Size(45, 15);
             this.ShaggyLabel.TabIndex = 1;
             this.ShaggyLabel.Text = "Shaggy";
             // 
@@ -728,10 +776,11 @@ namespace PSSI
             this.ScoobyLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ScoobyLabel.AutoSize = true;
             this.ScoobyLabel.BackColor = System.Drawing.Color.Transparent;
+            this.ScoobyLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.ScoobyLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ScoobyLabel.Location = new System.Drawing.Point(1023, 580);
             this.ScoobyLabel.Name = "ScoobyLabel";
-            this.ScoobyLabel.Size = new System.Drawing.Size(43, 13);
+            this.ScoobyLabel.Size = new System.Drawing.Size(45, 15);
             this.ScoobyLabel.TabIndex = 1;
             this.ScoobyLabel.Text = "Scooby";
             // 
@@ -739,6 +788,7 @@ namespace PSSI
             // 
             this.ButtercupPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ButtercupPicture.BackColor = System.Drawing.Color.Transparent;
+            this.ButtercupPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ButtercupPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtercupPicture.Image = ((System.Drawing.Image)(resources.GetObject("ButtercupPicture.Image")));
             this.ButtercupPicture.Location = new System.Drawing.Point(262, 487);
@@ -753,6 +803,7 @@ namespace PSSI
             // 
             this.CaptainAmericaPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CaptainAmericaPicture.BackColor = System.Drawing.Color.Transparent;
+            this.CaptainAmericaPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.CaptainAmericaPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CaptainAmericaPicture.Image = ((System.Drawing.Image)(resources.GetObject("CaptainAmericaPicture.Image")));
             this.CaptainAmericaPicture.Location = new System.Drawing.Point(364, 487);
@@ -767,6 +818,7 @@ namespace PSSI
             // 
             this.WinniePicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.WinniePicture.BackColor = System.Drawing.Color.Transparent;
+            this.WinniePicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.WinniePicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.WinniePicture.Image = ((System.Drawing.Image)(resources.GetObject("WinniePicture.Image")));
             this.WinniePicture.Location = new System.Drawing.Point(468, 487);
@@ -781,6 +833,7 @@ namespace PSSI
             // 
             this.PatrickPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PatrickPicture.BackColor = System.Drawing.Color.Transparent;
+            this.PatrickPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PatrickPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PatrickPicture.Image = ((System.Drawing.Image)(resources.GetObject("PatrickPicture.Image")));
             this.PatrickPicture.Location = new System.Drawing.Point(577, 487);
@@ -795,6 +848,7 @@ namespace PSSI
             // 
             this.SpongeBobPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.SpongeBobPicture.BackColor = System.Drawing.Color.Transparent;
+            this.SpongeBobPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.SpongeBobPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SpongeBobPicture.Image = ((System.Drawing.Image)(resources.GetObject("SpongeBobPicture.Image")));
             this.SpongeBobPicture.Location = new System.Drawing.Point(679, 487);
@@ -809,6 +863,7 @@ namespace PSSI
             // 
             this.BubblePicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.BubblePicture.BackColor = System.Drawing.Color.Transparent;
+            this.BubblePicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.BubblePicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BubblePicture.Image = ((System.Drawing.Image)(resources.GetObject("BubblePicture.Image")));
             this.BubblePicture.Location = new System.Drawing.Point(790, 487);
@@ -823,6 +878,7 @@ namespace PSSI
             // 
             this.ShaggyPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ShaggyPicture.BackColor = System.Drawing.Color.Transparent;
+            this.ShaggyPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ShaggyPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ShaggyPicture.Image = ((System.Drawing.Image)(resources.GetObject("ShaggyPicture.Image")));
             this.ShaggyPicture.Location = new System.Drawing.Point(896, 487);
@@ -838,6 +894,7 @@ namespace PSSI
             this.ScoobyPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ScoobyPicture.BackColor = System.Drawing.Color.Transparent;
             this.ScoobyPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ScoobyPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ScoobyPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ScoobyPicture.Image = ((System.Drawing.Image)(resources.GetObject("ScoobyPicture.Image")));
             this.ScoobyPicture.Location = new System.Drawing.Point(998, 487);
@@ -853,10 +910,11 @@ namespace PSSI
             this.AlbaCaZapadaLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.AlbaCaZapadaLabel.AutoSize = true;
             this.AlbaCaZapadaLabel.BackColor = System.Drawing.Color.Transparent;
+            this.AlbaCaZapadaLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.AlbaCaZapadaLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AlbaCaZapadaLabel.Location = new System.Drawing.Point(366, 453);
             this.AlbaCaZapadaLabel.Name = "AlbaCaZapadaLabel";
-            this.AlbaCaZapadaLabel.Size = new System.Drawing.Size(84, 13);
+            this.AlbaCaZapadaLabel.Size = new System.Drawing.Size(86, 15);
             this.AlbaCaZapadaLabel.TabIndex = 1;
             this.AlbaCaZapadaLabel.Text = "Alba Ca Zapada";
             // 
@@ -865,10 +923,11 @@ namespace PSSI
             this.ArielLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ArielLabel.AutoSize = true;
             this.ArielLabel.BackColor = System.Drawing.Color.Transparent;
+            this.ArielLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ArielLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ArielLabel.Location = new System.Drawing.Point(491, 451);
             this.ArielLabel.Name = "ArielLabel";
-            this.ArielLabel.Size = new System.Drawing.Size(27, 13);
+            this.ArielLabel.Size = new System.Drawing.Size(29, 15);
             this.ArielLabel.TabIndex = 1;
             this.ArielLabel.Text = "Ariel";
             // 
@@ -877,10 +936,11 @@ namespace PSSI
             this.BeanLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.BeanLabel.AutoSize = true;
             this.BeanLabel.BackColor = System.Drawing.Color.Transparent;
+            this.BeanLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.BeanLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BeanLabel.Location = new System.Drawing.Point(602, 451);
             this.BeanLabel.Name = "BeanLabel";
-            this.BeanLabel.Size = new System.Drawing.Size(32, 13);
+            this.BeanLabel.Size = new System.Drawing.Size(34, 15);
             this.BeanLabel.TabIndex = 1;
             this.BeanLabel.Text = "Bean";
             // 
@@ -888,6 +948,7 @@ namespace PSSI
             // 
             this.ElsaPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ElsaPicture.BackColor = System.Drawing.Color.Transparent;
+            this.ElsaPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ElsaPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ElsaPicture.Image = ((System.Drawing.Image)(resources.GetObject("ElsaPicture.Image")));
             this.ElsaPicture.Location = new System.Drawing.Point(262, 359);
@@ -902,6 +963,7 @@ namespace PSSI
             // 
             this.AlbaCaZapadaPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.AlbaCaZapadaPicture.BackColor = System.Drawing.Color.Transparent;
+            this.AlbaCaZapadaPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.AlbaCaZapadaPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AlbaCaZapadaPicture.Image = ((System.Drawing.Image)(resources.GetObject("AlbaCaZapadaPicture.Image")));
             this.AlbaCaZapadaPicture.Location = new System.Drawing.Point(364, 358);
@@ -916,6 +978,7 @@ namespace PSSI
             // 
             this.ArielPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ArielPicture.BackColor = System.Drawing.Color.Transparent;
+            this.ArielPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ArielPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ArielPicture.Image = ((System.Drawing.Image)(resources.GetObject("ArielPicture.Image")));
             this.ArielPicture.Location = new System.Drawing.Point(468, 358);
@@ -930,6 +993,7 @@ namespace PSSI
             // 
             this.BeanPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.BeanPicture.BackColor = System.Drawing.Color.Transparent;
+            this.BeanPicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.BeanPicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BeanPicture.Image = ((System.Drawing.Image)(resources.GetObject("BeanPicture.Image")));
             this.BeanPicture.Location = new System.Drawing.Point(577, 359);
@@ -945,10 +1009,11 @@ namespace PSSI
             this.BlossomLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.BlossomLabel.AutoSize = true;
             this.BlossomLabel.BackColor = System.Drawing.Color.Transparent;
+            this.BlossomLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.BlossomLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BlossomLabel.Location = new System.Drawing.Point(705, 450);
             this.BlossomLabel.Name = "BlossomLabel";
-            this.BlossomLabel.Size = new System.Drawing.Size(46, 13);
+            this.BlossomLabel.Size = new System.Drawing.Size(48, 15);
             this.BlossomLabel.TabIndex = 1;
             this.BlossomLabel.Text = "Blossom";
             // 
@@ -957,12 +1022,25 @@ namespace PSSI
             this.FlashLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.FlashLabel.AutoSize = true;
             this.FlashLabel.BackColor = System.Drawing.Color.Transparent;
+            this.FlashLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.FlashLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FlashLabel.Location = new System.Drawing.Point(814, 450);
             this.FlashLabel.Name = "FlashLabel";
-            this.FlashLabel.Size = new System.Drawing.Size(32, 13);
+            this.FlashLabel.Size = new System.Drawing.Size(34, 15);
             this.FlashLabel.TabIndex = 1;
             this.FlashLabel.Text = "Flash";
+            // 
+            // albaCaZapadaAlbNegru
+            // 
+            this.albaCaZapadaAlbNegru.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.albaCaZapadaAlbNegru.BackColor = System.Drawing.Color.Transparent;
+            this.albaCaZapadaAlbNegru.Location = new System.Drawing.Point(112, 347);
+            this.albaCaZapadaAlbNegru.Name = "albaCaZapadaAlbNegru";
+            this.albaCaZapadaAlbNegru.Size = new System.Drawing.Size(90, 90);
+            this.albaCaZapadaAlbNegru.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.albaCaZapadaAlbNegru.TabIndex = 3;
+            this.albaCaZapadaAlbNegru.TabStop = false;
+            this.albaCaZapadaAlbNegru.Visible = false;
             // 
             // CharactersPage
             // 
@@ -972,6 +1050,7 @@ namespace PSSI
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.albaCaZapadaAlbNegru);
             this.Controls.Add(this.ScoobyPicture);
             this.Controls.Add(this.PapaSmurfPicture);
             this.Controls.Add(this.BatmanPicture);
@@ -1072,6 +1151,7 @@ namespace PSSI
             ((System.ComponentModel.ISupportInitialize)(this.AlbaCaZapadaPicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ArielPicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BeanPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.albaCaZapadaAlbNegru)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1145,6 +1225,7 @@ namespace PSSI
         private System.Windows.Forms.Label BlossomLabel;
         private System.Windows.Forms.Label FlashLabel;
         private System.Windows.Forms.PictureBox IronManPicture;
+        private System.Windows.Forms.PictureBox albaCaZapadaAlbNegru;
     }
 }
 

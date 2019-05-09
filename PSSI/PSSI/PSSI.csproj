@@ -52,6 +52,30 @@
     <Compile Include="AnimaleSalbatice.Designer.cs">
       <DependentUpon>AnimaleSalbatice.cs</DependentUpon>
     </Compile>
+    <Compile Include="Anotimpuri_Iarna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anotimpuri_Iarna.Designer.cs">
+      <DependentUpon>Anotimpuri_Iarna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Anotimpuri_Primavara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anotimpuri_Primavara.Designer.cs">
+      <DependentUpon>Anotimpuri_Primavara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Anotimpuri_Toamna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anotimpuri_Toamna.Designer.cs">
+      <DependentUpon>Anotimpuri_Toamna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Anotimpuri_Vara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anotimpuri_Vara.Designer.cs">
+      <DependentUpon>Anotimpuri_Vara.cs</DependentUpon>
+    </Compile>
     <Compile Include="Character.cs" />
     <Compile Include="CharactersPageHandler.cs" />
     <Compile Include="CharactersPage.cs">
@@ -71,6 +95,15 @@
     <EmbeddedResource Include="AnimaleSalbatice.resx">
       <DependentUpon>AnimaleSalbatice.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Anotimpuri_Iarna.resx">
+      <DependentUpon>Anotimpuri_Iarna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Anotimpuri_Toamna.resx">
+      <DependentUpon>Anotimpuri_Toamna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Anotimpuri_Vara.resx">
+      <DependentUpon>Anotimpuri_Vara.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CharactersPage.resx">
       <DependentUpon>CharactersPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -80,17 +113,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -99,6 +133,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\albacazapadaAlbNegru.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\anotimp_background1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\anotimp_background2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\anotimpuri_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\graphicstock-border-design-with-children-reading-illustration_rdT76dl3e_SB_PM.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\children1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\4484.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\primavara.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\summer-season-in-india-clipart-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\fall-PNG1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\winter1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\104561-yana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\899798.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\spring-season-clipart-8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\aa8cbe67fed87ece4f1b633584279586.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\autumn_landscape_design_with_falling_leaves_and_trees_6824243.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\ninos-jugando-playa-pistolas-agua-plastico_23-2147816386.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\fall-2013.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
