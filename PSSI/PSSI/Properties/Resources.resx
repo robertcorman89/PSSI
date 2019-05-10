@@ -127,8 +127,14 @@
   <data name="fall-PNG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\fall-PNG1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="spring-season-clipart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\spring-season-clipart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="8997981" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\899798.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="autumn_landscape_design_with_falling_leaves_and_trees_68242431" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\autumn_landscape_design_with_falling_leaves_and_trees_6824243.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="spring-season-clipart-81" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\spring-season-clipart-8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,6 +148,9 @@
   <data name="104561-yana" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\104561-yana.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="8997982" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\899798.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="children1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\children1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -151,8 +160,23 @@
   <data name="4484" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\4484.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="season-clipart-season-clipart-300_297" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\season-clipart-season-clipart-300_297.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="984186bca2a6bbcea1c24d5033ad1d1e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\984186bca2a6bbcea1c24d5033ad1d1e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="winter-cartoon-png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\winter-cartoon-png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fall-2013" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\fall-2013.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ninos-jugando-playa-pistolas-agua-plastico_23-2147816386" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\ninos-jugando-playa-pistolas-agua-plastico_23-2147816386.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="winter-weather-clipart-12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\winter-weather-clipart-12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="899798" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\899798.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,13 +184,16 @@
   <data name="summer-season-in-india-clipart-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\summer-season-in-india-clipart-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="illustration-clipart-autumn-season-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\illustration-clipart-autumn-season-16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="primavara" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\primavara.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="anotimpuri_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\anotimpuri_background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fall-2013" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\fall-2013.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="summer-season-clipart-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\summer-season-clipart-3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

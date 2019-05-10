@@ -43,6 +43,7 @@
             this.Iarna.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Iarna.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Iarna.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Iarna.Image = global::PSSI.Properties.Resources.winter_cartoon_png;
             this.Iarna.Location = new System.Drawing.Point(384, 428);
             this.Iarna.Name = "Iarna";
             this.Iarna.Size = new System.Drawing.Size(170, 170);

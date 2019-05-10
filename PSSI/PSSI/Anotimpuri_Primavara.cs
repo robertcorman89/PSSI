@@ -16,5 +16,36 @@ namespace PSSI
         {
             InitializeComponent();
         }
+
+        private void Primavara_Click(object sender, EventArgs e)
+        {
+            CharactersPageHandler.Instance.PlayCorrectSound();
+            CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score +=
+                1;
+            CharactersPage characters = new CharactersPage();
+            characters.Show();
+            this.Hide();
+        }
+
+        private void Vara_Click(object sender, EventArgs e)
+        {
+            CharactersPageHandler.Instance.PlayWrongSound();
+            CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score -=
+                1;
+        }
+
+        private void Iarna_Click(object sender, EventArgs e)
+        {
+            CharactersPageHandler.Instance.PlayWrongSound();
+            CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score -=
+                1;
+        }
+
+        private void Toamna_Click(object sender, EventArgs e)
+        {
+            CharactersPageHandler.Instance.PlayWrongSound();
+            CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score -=
+                1;
+        }
     }
 }

@@ -103,6 +103,26 @@ namespace PSSI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _8997982 {
+            get {
+                object obj = ResourceManager.GetObject("8997982", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _984186bca2a6bbcea1c24d5033ad1d1e {
+            get {
+                object obj = ResourceManager.GetObject("984186bca2a6bbcea1c24d5033ad1d1e", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap aa8cbe67fed87ece4f1b633584279586 {
             get {
                 object obj = ResourceManager.GetObject("aa8cbe67fed87ece4f1b633584279586", resourceCulture);
@@ -126,6 +146,16 @@ namespace PSSI.Properties {
         internal static System.Drawing.Bitmap autumn_landscape_design_with_falling_leaves_and_trees_6824243 {
             get {
                 object obj = ResourceManager.GetObject("autumn_landscape_design_with_falling_leaves_and_trees_6824243", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap autumn_landscape_design_with_falling_leaves_and_trees_68242431 {
+            get {
+                object obj = ResourceManager.GetObject("autumn_landscape_design_with_falling_leaves_and_trees_68242431", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,6 +193,16 @@ namespace PSSI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap illustration_clipart_autumn_season_16 {
+            get {
+                object obj = ResourceManager.GetObject("illustration-clipart-autumn-season-16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ninos_jugando_playa_pistolas_agua_plastico_23_2147816386 {
             get {
                 object obj = ResourceManager.GetObject("ninos-jugando-playa-pistolas-agua-plastico_23-2147816386", resourceCulture);
@@ -176,6 +216,26 @@ namespace PSSI.Properties {
         internal static System.Drawing.Bitmap primavara {
             get {
                 object obj = ResourceManager.GetObject("primavara", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap season_clipart_season_clipart_300_297 {
+            get {
+                object obj = ResourceManager.GetObject("season-clipart-season-clipart-300_297", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap spring_season_clipart {
+            get {
+                object obj = ResourceManager.GetObject("spring-season-clipart", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,6 +263,16 @@ namespace PSSI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap summer_season_clipart_3 {
+            get {
+                object obj = ResourceManager.GetObject("summer-season-clipart-3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap summer_season_in_india_clipart_1 {
             get {
                 object obj = ResourceManager.GetObject("summer-season-in-india-clipart-1", resourceCulture);
@@ -216,6 +286,26 @@ namespace PSSI.Properties {
         internal static System.Drawing.Bitmap summer_season_in_india_clipart_11 {
             get {
                 object obj = ResourceManager.GetObject("summer-season-in-india-clipart-11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap winter_cartoon_png {
+            get {
+                object obj = ResourceManager.GetObject("winter-cartoon-png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap winter_weather_clipart_12 {
+            get {
+                object obj = ResourceManager.GetObject("winter-weather-clipart-12", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

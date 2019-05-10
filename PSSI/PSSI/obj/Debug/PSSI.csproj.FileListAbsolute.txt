@@ -25,3 +25,4 @@ C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.pdb
 C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.Anotimpuri_Iarna.resources
 C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.Anotimpuri_Vara.resources
 C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.Anotimpuri_Toamna.resources
+C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.Anotimpuri_Primavara.resources

@@ -98,6 +98,9 @@
     <EmbeddedResource Include="Anotimpuri_Iarna.resx">
       <DependentUpon>Anotimpuri_Iarna.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Anotimpuri_Primavara.resx">
+      <DependentUpon>Anotimpuri_Primavara.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Anotimpuri_Toamna.resx">
       <DependentUpon>Anotimpuri_Toamna.cs</DependentUpon>
     </EmbeddedResource>
@@ -187,6 +190,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="images\fall-2013.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\winter-cartoon-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\984186bca2a6bbcea1c24d5033ad1d1e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\season-clipart-season-clipart-300_297.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\winter-weather-clipart-12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\illustration-clipart-autumn-season-16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\spring-season-clipart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\summer-season-clipart-3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
