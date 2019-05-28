@@ -15,6 +15,14 @@ namespace PSSI
         public AnimaleSalbatice()
         {
             InitializeComponent();
+            FormBorderStyle = FormBorderStyle.None;
+            CharactersPageHandler.Instance.PlayReguliAnimaleSalbatice();
+            this.Bunny.Enabled = false;
+            this.Cow.Enabled = false;
+            this.Snake.Enabled = false;
+            this.Lion.Enabled = false;
+            this.Tiger.Enabled = false;
+            this.Pig.Enabled = false;
         }
 
         private void Tiger_Click(object sender, EventArgs e)
@@ -23,6 +31,11 @@ namespace PSSI
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score +=
                 1;
             this.Tiger.Enabled = false;
+            if(this.Lion.Enabled == false && this.Snake.Enabled == false && this.Bunny.Enabled == false)
+            {
+                this.Next.Visible = true;
+                CharactersPageHandler.Instance.PlayToateAnimaleGasite();
+            }
         }
 
         private void Lion_Click(object sender, EventArgs e)
@@ -31,6 +44,11 @@ namespace PSSI
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score +=
                 1;
             this.Lion.Enabled = false;
+            if (this.Tiger.Enabled == false && this.Snake.Enabled == false && this.Bunny.Enabled == false)
+            {
+                this.Next.Visible = true;
+                CharactersPageHandler.Instance.PlayToateAnimaleGasite();
+            }
         }
 
         private void Snake_Click(object sender, EventArgs e)
@@ -39,6 +57,11 @@ namespace PSSI
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score +=
                 1;
             this.Snake.Enabled = false;
+            if (this.Lion.Enabled == false && this.Tiger.Enabled == false && this.Bunny.Enabled == false)
+            {
+                this.Next.Visible = true;
+                CharactersPageHandler.Instance.PlayToateAnimaleGasite();
+            }
         }
 
         private void Next_Click(object sender, EventArgs e)
@@ -51,16 +74,12 @@ namespace PSSI
         private void Pig_Click(object sender, EventArgs e)
         {
             CharactersPageHandler.Instance.PlayWrongSound();
-            CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score -=
-                1;
             this.Pig.Enabled = false;
         }
 
         private void Cow_Click(object sender, EventArgs e)
         {
             CharactersPageHandler.Instance.PlayWrongSound();
-            CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score -=
-                1;
             this.Cow.Enabled = false;
         }
 
@@ -70,6 +89,22 @@ namespace PSSI
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score +=
                 1;
             this.Bunny.Enabled = false;
+            if (this.Lion.Enabled == false && this.Snake.Enabled == false && this.Tiger.Enabled == false)
+            {
+                this.Next.Visible = true;
+                CharactersPageHandler.Instance.PlayToateAnimaleGasite();
+            }
+        }
+
+        private void Start_Click(object sender, EventArgs e)
+        {
+            this.Bunny.Enabled = true;
+            this.Cow.Enabled = true;
+            this.Snake.Enabled = true;
+            this.Lion.Enabled = true;
+            this.Tiger.Enabled = true;
+            this.Pig.Enabled = true;
+            this.Start.Enabled = false;
         }
     }
 }

@@ -118,82 +118,232 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="aa8cbe67fed87ece4f1b633584279586" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\aa8cbe67fed87ece4f1b633584279586.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="winter1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\winter1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fall-PNG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\fall-PNG1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="spring-season-clipart" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\spring-season-clipart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="8997981" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\899798.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="autumn_landscape_design_with_falling_leaves_and_trees_68242431" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\autumn_landscape_design_with_falling_leaves_and_trees_6824243.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="spring-season-clipart-81" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\spring-season-clipart-8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="summer-season-in-india-clipart-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\summer-season-in-india-clipart-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="spring-season-clipart-8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\spring-season-clipart-8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="104561-yana" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\104561-yana.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="8997982" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\899798.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="children1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\children1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="autumn_landscape_design_with_falling_leaves_and_trees_6824243" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\autumn_landscape_design_with_falling_leaves_and_trees_6824243.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="4484" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\4484.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="season-clipart-season-clipart-300_297" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\season-clipart-season-clipart-300_297.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="984186bca2a6bbcea1c24d5033ad1d1e" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\984186bca2a6bbcea1c24d5033ad1d1e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="winter-cartoon-png" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\winter-cartoon-png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Download-Left-Arrow-PNG-HD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Download-Left-Arrow-PNG-HD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fall-2013" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\fall-2013.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ninos-jugando-playa-pistolas-agua-plastico_23-2147816386" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\ninos-jugando-playa-pistolas-agua-plastico_23-2147816386.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="green-start-button-clip-art-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\green-start-button-clip-art-0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="winter-weather-clipart-12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\winter-weather-clipart-12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="899798" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\899798.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="summer-season-in-india-clipart-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\summer-season-in-india-clipart-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="illustration-clipart-autumn-season-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\illustration-clipart-autumn-season-16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="primavara" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\primavara.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="green-start-button-clip-art-05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\green-start-button-clip-art-0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="anotimpuri_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\anotimpuri_background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Download-Left-Arrow-PNG-HD3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Download-Left-Arrow-PNG-HD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="summer-season-clipart-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\summer-season-clipart-3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11077901" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\1107790.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="205800" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\205800.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red-square-hi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\red-square-hi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Download-Left-Arrow-PNG-HD1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Download-Left-Arrow-PNG-HD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="82d61a874a0217def030efbd3f0fbc8c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\82d61a874a0217def030efbd3f0fbc8c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_right_yellow2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\arrow_right_yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Eeyore_from_Winnie_the_Pooh_Kids_Transparent_Photo_Frame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Eeyore_from_Winnie_the_Pooh_Kids_Transparent_Photo_Frame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8997982" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\899798.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green-start-button-clip-art-0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\green-start-button-clip-art-0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sccpre.cat-transparent-triangle-png-105187" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\sccpre.cat-transparent-triangle-png-105187.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="91ab89eb0e2d36096234705d186250a2--power-point-templates-ppt-template" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\91ab89eb0e2d36096234705d186250a2--power-point-templates-ppt-template.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green-start-button-clip-art-04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\green-start-button-clip-art-0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8997981" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\899798.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1107790" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\1107790.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sccpre1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\sccpre.cat-transparent-triangle-png-105187.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="symbol-arrow-up-blue-direction-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\symbol-arrow-up-blue-direction-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="repeat-button-icon-179041" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\repeat-button-icon-17904.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="autumn_landscape_design_with_falling_leaves_and_trees_68242431" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\autumn_landscape_design_with_falling_leaves_and_trees_6824243.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spring-season-clipart-8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\spring-season-clipart-8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="winter-cartoon-png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\winter-cartoon-png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11077903" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\1107790.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Download-Left-Arrow-PNG-HD2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Download-Left-Arrow-PNG-HD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="autumn_landscape_design_with_falling_leaves_and_trees_6824243" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\autumn_landscape_design_with_falling_leaves_and_trees_6824243.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_right_yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\arrow_right_yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green-start-button-clip-art-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\green-start-button-clip-art-0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="repeat-button-icon-179042" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\repeat-button-icon-17904.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-846717684-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\istockphoto-846717684-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aa8cbe67fed87ece4f1b633584279586" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\aa8cbe67fed87ece4f1b633584279586.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="season-clipart-season-clipart-300_297" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\season-clipart-season-clipart-300_297.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kissclipart-cat-is-on-the-chair-clipart-exotic-shorthair-benga-aa86032d1c0761f8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\kissclipart-cat-is-on-the-chair-clipart-exotic-shorthair-benga-aa86032d1c0761f8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\download (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="symbol-arrow-up-blue-direction-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\symbol-arrow-up-blue-direction-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11c2b9c85b9574959226cdebea278a17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\11c2b9c85b9574959226cdebea278a17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ninos-jugando-playa-pistolas-agua-plastico_23-2147816386" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ninos-jugando-playa-pistolas-agua-plastico_23-2147816386.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="primavara" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\primavara.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="symbol-arrow-up-blue-direction-5123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\symbol-arrow-up-blue-direction-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Download3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="illustration-clipart-autumn-season-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\illustration-clipart-autumn-season-16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_right_yellow3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\arrow_right_yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="899798" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\899798.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="373072" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\373072.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red-square-hi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\red-square-hi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="repeat-button-icon-17904" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\repeat-button-icon-17904.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="984186bca2a6bbcea1c24d5033ad1d1e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\984186bca2a6bbcea1c24d5033ad1d1e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spring-season-clipart-81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\spring-season-clipart-8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="158-1589924_red-square-clipart-eye-paper-product-png-download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\158-1589924_red-square-clipart-eye-paper-product-png-download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="winter-weather-clipart-12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\winter-weather-clipart-12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="summer-season-in-india-clipart-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\summer-season-in-india-clipart-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="106-1068494_green-fire-png-www-imgkid-com-the-image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\106-1068494_green-fire-png-www-imgkid-com-the-image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="symbol-arrow-up-blue-direction-5122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\symbol-arrow-up-blue-direction-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11077902" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\1107790.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="children1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\children1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Download2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Download1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="winter1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\winter1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="summer-season-in-india-clipart-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\summer-season-in-india-clipart-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fall-PNG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\fall-PNG1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="104561-yana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\104561-yana.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_right_yellow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\arrow_right_yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green-start-button-clip-art-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\green-start-button-clip-art-0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="repeat-button-icon-179043" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\repeat-button-icon-17904.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

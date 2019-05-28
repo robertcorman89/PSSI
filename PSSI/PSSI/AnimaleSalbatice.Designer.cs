@@ -36,6 +36,7 @@
             this.Snake = new System.Windows.Forms.PictureBox();
             this.Bunny = new System.Windows.Forms.PictureBox();
             this.Cow = new System.Windows.Forms.PictureBox();
+            this.Start = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Tiger)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pig)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Lion)).BeginInit();
@@ -43,6 +44,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Snake)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Bunny)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Cow)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Start)).BeginInit();
             this.SuspendLayout();
             // 
             // Tiger
@@ -95,6 +97,7 @@
             this.Next.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Next.TabIndex = 3;
             this.Next.TabStop = false;
+            this.Next.Visible = false;
             this.Next.Click += new System.EventHandler(this.Next_Click);
             // 
             // Snake
@@ -136,6 +139,20 @@
             this.Cow.TabStop = false;
             this.Cow.Click += new System.EventHandler(this.Cow_Click);
             // 
+            // Start
+            // 
+            this.Start.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Start.BackColor = System.Drawing.Color.Transparent;
+            this.Start.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Start.Image = global::PSSI.Properties.Resources.green_start_button_clip_art_01;
+            this.Start.Location = new System.Drawing.Point(1268, 122);
+            this.Start.Name = "Start";
+            this.Start.Size = new System.Drawing.Size(70, 70);
+            this.Start.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Start.TabIndex = 7;
+            this.Start.TabStop = false;
+            this.Start.Click += new System.EventHandler(this.Start_Click);
+            // 
             // AnimaleSalbatice
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -143,6 +160,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.Start);
             this.Controls.Add(this.Cow);
             this.Controls.Add(this.Bunny);
             this.Controls.Add(this.Snake);
@@ -160,6 +178,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Snake)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Bunny)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Cow)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Start)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -173,5 +192,6 @@
         private System.Windows.Forms.PictureBox Snake;
         private System.Windows.Forms.PictureBox Bunny;
         private System.Windows.Forms.PictureBox Cow;
+        private System.Windows.Forms.PictureBox Start;
     }
 }

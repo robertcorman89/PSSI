@@ -26,3 +26,7 @@ C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.Anotimpuri
 C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.Anotimpuri_Vara.resources
 C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.Anotimpuri_Toamna.resources
 C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.Anotimpuri_Primavara.resources
+C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.PozitiiSpatialeJos.resources
+C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.PozitiiSpatialeSus.resources
+C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.PozitiiSpatialeDreapta.resources
+C:\Users\Robert Corman\source\repos\PSSI git\PSSI\PSSI\obj\Debug\PSSI.PozitiiSpatialeStanga.resources

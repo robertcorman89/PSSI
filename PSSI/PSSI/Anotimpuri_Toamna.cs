@@ -15,20 +15,25 @@ namespace PSSI
         public Anotimpuri_Toamna()
         {
             InitializeComponent();
+            FormBorderStyle = FormBorderStyle.None;
+            CharactersPageHandler.Instance.PlayApasaButonStart();
+            this.Vara.Enabled = false;
+            this.Iarna.Enabled = false;
+            this.Primavara.Enabled = false;
+            this.Toamna.Enabled = false;
+            this.Start.Enabled = true;
+            this.repeat.Enabled = false;
+            CharactersPageHandler.Instance.WaitSeconds(8);
         }
 
         private void Vara_Click(object sender, EventArgs e)
         {
             CharactersPageHandler.Instance.PlayWrongSound();
-            CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score -=
-                1;
         }
 
         private void Primavara_Click(object sender, EventArgs e)
         {
             CharactersPageHandler.Instance.PlayWrongSound();
-            CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score -=
-                1;
         }
 
         private void Toamna_Click(object sender, EventArgs e)
@@ -37,15 +42,30 @@ namespace PSSI
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score +=
                 1;
             Anotimpuri_Primavara primavara = new Anotimpuri_Primavara();
-            primavara.Show();
             this.Hide();
+            primavara.Show();
+            
         }
 
         private void Iarna_Click(object sender, EventArgs e)
         {
             CharactersPageHandler.Instance.PlayWrongSound();
-            CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score -=
-                1;
+        }
+
+        private void Start_Click(object sender, EventArgs e)
+        {
+            this.Vara.Enabled = true;
+            this.Iarna.Enabled = true;
+            this.Primavara.Enabled = true;
+            this.Toamna.Enabled = true;
+            this.Start.Enabled = false;
+            this.repeat.Enabled = true;
+            CharactersPageHandler.Instance.PlayPoezieToamna();
+        }
+
+        private void Repeat_Click(object sender, EventArgs e)
+        {
+            CharactersPageHandler.Instance.PlayPoezieToamna();
         }
     }
 }

@@ -10,7 +10,7 @@ namespace PSSI
         public CharactersPage()
         {
             InitializeComponent();
-            //FormBorderStyle = FormBorderStyle.None;
+            CharactersPageHandler.Instance.PlayIntroducere();
             if (this.charactersPageHandler.Characters[0].usedBefore)
             {
                 this.mcqueenPicture.Enabled = false;
@@ -98,10 +98,7 @@ namespace PSSI
             }
             if (this.charactersPageHandler.Characters[17].usedBefore)
             {
-                this.albaCaZapadaAlbNegru.Location = new Point(365, 358);
-                this.albaCaZapadaAlbNegru.Show();
-                this.albaCaZapadaAlbNegru.Enabled = false;
-                this.AlbaCaZapadaPicture.Hide();
+                this.AlbaCaZapadaPicture.Enabled = false;
                 this.AlbaCaZapadaLabel.Text = this.charactersPageHandler.Characters[17].score.ToString();
             }
             if (this.charactersPageHandler.Characters[18].usedBefore)

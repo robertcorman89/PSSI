@@ -32,10 +32,14 @@
             this.Toamna = new System.Windows.Forms.PictureBox();
             this.Vara = new System.Windows.Forms.PictureBox();
             this.Primavara = new System.Windows.Forms.PictureBox();
+            this.Start = new System.Windows.Forms.PictureBox();
+            this.repeat = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Iarna)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Toamna)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Vara)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Primavara)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Start)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repeat)).BeginInit();
             this.SuspendLayout();
             // 
             // Iarna
@@ -94,6 +98,34 @@
             this.Primavara.TabStop = false;
             this.Primavara.Click += new System.EventHandler(this.Primavara_Click);
             // 
+            // Start
+            // 
+            this.Start.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Start.BackColor = System.Drawing.Color.Transparent;
+            this.Start.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Start.Image = global::PSSI.Properties.Resources.green_start_button_clip_art_04;
+            this.Start.Location = new System.Drawing.Point(1244, 38);
+            this.Start.Name = "Start";
+            this.Start.Size = new System.Drawing.Size(70, 70);
+            this.Start.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Start.TabIndex = 4;
+            this.Start.TabStop = false;
+            this.Start.Click += new System.EventHandler(this.Start_Click);
+            // 
+            // repeat
+            // 
+            this.repeat.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.repeat.BackColor = System.Drawing.Color.Transparent;
+            this.repeat.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.repeat.Image = global::PSSI.Properties.Resources.repeat_button_icon_179042;
+            this.repeat.Location = new System.Drawing.Point(1244, 143);
+            this.repeat.Name = "repeat";
+            this.repeat.Size = new System.Drawing.Size(70, 70);
+            this.repeat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.repeat.TabIndex = 5;
+            this.repeat.TabStop = false;
+            this.repeat.Click += new System.EventHandler(this.Repeat_Click);
+            // 
             // Anotimpuri_Toamna
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -101,6 +133,8 @@
             this.BackgroundImage = global::PSSI.Properties.Resources.aa8cbe67fed87ece4f1b633584279586;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.repeat);
+            this.Controls.Add(this.Start);
             this.Controls.Add(this.Primavara);
             this.Controls.Add(this.Vara);
             this.Controls.Add(this.Toamna);
@@ -113,6 +147,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.Toamna)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Vara)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Primavara)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Start)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repeat)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -123,5 +159,7 @@
         private System.Windows.Forms.PictureBox Toamna;
         private System.Windows.Forms.PictureBox Vara;
         private System.Windows.Forms.PictureBox Primavara;
+        private System.Windows.Forms.PictureBox Start;
+        private System.Windows.Forms.PictureBox repeat;
     }
 }

@@ -16,6 +16,16 @@ namespace PSSI
         public AnimaleDomestice()
         {
             InitializeComponent();
+            FormBorderStyle = FormBorderStyle.None;
+            CharactersPageHandler.Instance.PlayReguliAnimaleDomestice();
+            this.Chicken.Enabled = false;
+            this.Fox.Enabled = false;
+            this.Dog.Enabled = false;
+            this.Bear.Enabled = false;
+            this.Goose.Enabled = false;
+            this.Cow.Enabled = false;
+            this.Deer.Enabled = false;
+            CharactersPageHandler.Instance.WaitSeconds(13);
         }
 
  
@@ -25,13 +35,16 @@ namespace PSSI
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score +=
                 1;
             this.Chicken.Enabled = false;
+            if(this.Dog.Enabled == false && this.Goose.Enabled == false && this.Cow.Enabled == false)
+            {
+                this.Next.Visible = true;
+                CharactersPageHandler.Instance.PlayToateAnimaleGasite();
+            }
         }
 
         private void Fox_Click(object sender, EventArgs e)
         {
             CharactersPageHandler.Instance.PlayWrongSound();
-            CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score -=
-                1;
             this.Fox.Enabled = false;
         }
 
@@ -41,13 +54,16 @@ namespace PSSI
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score +=
                 1;
             this.Dog.Enabled = false;
+            if (this.Chicken.Enabled == false && this.Goose.Enabled == false && this.Cow.Enabled == false)
+            {
+                this.Next.Visible = true;
+                CharactersPageHandler.Instance.PlayToateAnimaleGasite();
+            }
         }
 
         private void Bear_Click(object sender, EventArgs e)
         {
             CharactersPageHandler.Instance.PlayWrongSound();
-            CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score -=
-                1;
             this.Bear.Enabled = false;
         }
 
@@ -57,6 +73,11 @@ namespace PSSI
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score +=
                 1;
             this.Goose.Enabled = false;
+            if (this.Chicken.Enabled == false && this.Dog.Enabled == false && this.Cow.Enabled == false)
+            {
+                this.Next.Visible = true;
+                CharactersPageHandler.Instance.PlayToateAnimaleGasite();
+            }
         }
 
         private void Cow_Click(object sender, EventArgs e)
@@ -65,21 +86,36 @@ namespace PSSI
             CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score +=
                 1;
             this.Cow.Enabled = false;
+            if (this.Chicken.Enabled == false && this.Goose.Enabled == false && this.Dog.Enabled == false)
+            {
+                this.Next.Visible = true;
+                CharactersPageHandler.Instance.PlayToateAnimaleGasite();
+            }
         }
 
         private void Deer_Click(object sender, EventArgs e)
         {
             CharactersPageHandler.Instance.PlayWrongSound();
-            CharactersPageHandler.Instance.Characters[CharactersPageHandler.Instance.CurrentCharacterPosition].score -=
-                1;
             this.Deer.Enabled = false;
         }
 
         private void Next_Click(object sender, EventArgs e)
         {
+            this.Hide();
             AnimaleSalbatice animaleSalbatice = new AnimaleSalbatice();
             animaleSalbatice.Show();
-            this.Hide();
+        }
+
+        private void Start_Click(object sender, EventArgs e)
+        {
+            this.Chicken.Enabled = true;
+            this.Fox.Enabled = true;
+            this.Dog.Enabled = true;
+            this.Bear.Enabled = true;
+            this.Goose.Enabled = true;
+            this.Cow.Enabled = true;
+            this.Deer.Enabled = true;
+            this.Start.Enabled = false;
         }
     }
 }

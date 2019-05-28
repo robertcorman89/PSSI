@@ -90,6 +90,30 @@
     <Compile Include="AnimaleDomestice.Designer.cs">
       <DependentUpon>AnimaleDomestice.cs</DependentUpon>
     </Compile>
+    <Compile Include="PozitiiSpatialeDreapta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PozitiiSpatialeDreapta.Designer.cs">
+      <DependentUpon>PozitiiSpatialeDreapta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PozitiiSpatialeJos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PozitiiSpatialeJos.Designer.cs">
+      <DependentUpon>PozitiiSpatialeJos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PozitiiSpatialeStanga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PozitiiSpatialeStanga.Designer.cs">
+      <DependentUpon>PozitiiSpatialeStanga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PozitiiSpatialeSus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PozitiiSpatialeSus.Designer.cs">
+      <DependentUpon>PozitiiSpatialeSus.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AnimaleSalbatice.resx">
@@ -113,6 +137,18 @@
     <EmbeddedResource Include="AnimaleDomestice.resx">
       <DependentUpon>AnimaleDomestice.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PozitiiSpatialeDreapta.resx">
+      <DependentUpon>PozitiiSpatialeDreapta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PozitiiSpatialeJos.resx">
+      <DependentUpon>PozitiiSpatialeJos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PozitiiSpatialeStanga.resx">
+      <DependentUpon>PozitiiSpatialeStanga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PozitiiSpatialeSus.resx">
+      <DependentUpon>PozitiiSpatialeSus.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -211,6 +247,72 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="images\summer-season-clipart-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\green-start-button-clip-art-0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Eeyore_from_Winnie_the_Pooh_Kids_Transparent_Photo_Frame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\symbol-arrow-up-blue-direction-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\arrow_right_yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\kissclipart-cat-is-on-the-chair-clipart-exotic-shorthair-benga-aa86032d1c0761f8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\istockphoto-846717684-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\82d61a874a0217def030efbd3f0fbc8c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\11c2b9c85b9574959226cdebea278a17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\1107790.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\373072.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\158-1589924_red-square-clipart-eye-paper-product-png-download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\red-square-hi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\91ab89eb0e2d36096234705d186250a2--power-point-templates-ppt-template.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\106-1068494_green-fire-png-www-imgkid-com-the-image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\sccpre.cat-transparent-triangle-png-105187.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\205800.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Download-Left-Arrow-PNG-HD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\repeat-button-icon-17904.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
